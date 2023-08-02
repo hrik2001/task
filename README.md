@@ -1,66 +1,8 @@
-## Foundry
+## Task
+Due to problems securing testnet tokens from linea faucet, it has been deployed and verified in Avalanche Snowtrace Testnet.
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+- `Transfer` contract is deployed [here](https://testnet.snowtrace.io/address/0xE50adF744215363a2c37aFc3Fbe6ddc58f61430c)
 
-Foundry consists of:
+- `transferToken` transaction is [here](https://testnet.snowtrace.io/tx/0x8171f8d4267b4fca2d8b3877f94cd751ae2a1c00d8682f4e3a4309a320eeb953)
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- `transferEth` transaction is [here](https://testnet.snowtrace.io/tx/0x03052cd271acd46d707b1b48cf7855cbdcd728fd37350a6720e9ba21d464a2bf)
